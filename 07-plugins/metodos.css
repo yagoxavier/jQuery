@@ -1,0 +1,42 @@
+.j_method_plugin{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    z-index: 99;
+    background: #000;
+    color: #fff;
+    display: none;
+}
+
+.j_method_plugin_content{
+    margin: auto;
+    padding: 30px;
+}
+
+.j_method_plugin_content h1{
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+.j_method_plugin_content p{
+    font-size: 0.875em;
+}
+
+.j_method_plugin_content button{
+    display: inline-block;
+    padding: 10px 20px;
+    border: none;
+    background: #bf7676;
+    color: #fff;
+    font-size: 1em;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.j_method_plugin_content button:hover{
+    background: #b76969;
+}
